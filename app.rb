@@ -8,4 +8,8 @@ class App < Sinatra::Base
   get '/name' do
     'Hi, my name is name'
   end
+  
+  get '' do
+    
+  end
 end
