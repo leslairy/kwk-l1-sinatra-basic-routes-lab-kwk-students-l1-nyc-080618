@@ -9,7 +9,10 @@ class App < Sinatra::Base
     'Hi, my name is name'
   end
   
-  get '' do
-    
+  get '/lastname' do
+   'Alek' 
+  end
+  get '/home' do
+    'Doddododdoo'
   end
 end
