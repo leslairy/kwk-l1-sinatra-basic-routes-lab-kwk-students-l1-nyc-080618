@@ -15,4 +15,6 @@ class App < Sinatra::Base
   get '/home' do
     'Doddododdoo'
   end
+  get '/boring' do 
+    ''
 end
